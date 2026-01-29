@@ -1,4 +1,4 @@
-import { SimpleActionMessage } from '@/components';
+import { SimpleActionMessage } from '@/components/action-message';
 import type { ChatInputCommand, CommandData } from 'commandkit';
 import { MessageFlags } from 'discord.js';
 
