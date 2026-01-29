@@ -3,8 +3,8 @@ import type { ChatInputCommand, CommandData } from 'commandkit';
 import { MessageFlags } from 'discord.js';
 
 export const command: CommandData = {
-  name: 'ping',
-  description: "Ping the bot to check if it's online.",
+  name: 'actionrow',
+  description: "Test action row",
 };
 
 export const chatInput: ChatInputCommand = async (ctx) => {

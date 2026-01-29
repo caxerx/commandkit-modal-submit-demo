@@ -2,6 +2,7 @@ import { Label, Modal, ShortInput, type CommandKitModalBuilderInteractionCollect
 
 export const simpleSubmitHandler: CommandKitModalBuilderInteractionCollectorDispatch = async (interaction, ctx) => {
     console.log(interaction.fields.fields.get('name'));
+    await interaction.deferUpdate();
     ctx.dispose();
 }
 
